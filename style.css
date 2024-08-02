@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.navbar{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    box-shadow: 0px 1px 4px 1px rgba(212,201,201,0.73);
+-webkit-box-shadow: 0px 1px 4px 1px rgba(212,201,201,0.73);
+-moz-box-shadow: 0px 1px 4px 1px rgba(212,201,201,0.73);
+background-color: white;
+} 
+.hea{
+    background-color: #f8f9fa;
+      
+}    
+.ilk-1{
+padding-top: 10rem;
+padding-bottom: 4rem;
+}
+.orta-img{
+
+   height: 48px;
+
+}
+   
+.basit{
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    border-radius: 300px;
+    width:400px;
+    height:400px;
+    position: absolute;
+    z-index: 20;   
+    
+}   
+
+.tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bg-3 {
+  background-image: linear-gradient(45deg, #2937f0, #9f1ae2) 
+  
+}
+
+
+.img-five{
+width: 280px;
+
+ float: left;
+ z-index: 100;
+
+
+    
+}
+
+.orta{
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+ 
+}
+.orta p{
+  width: 50%;
+  margin: auto;
+}
+.zk-1{
+    height: 48px;
+color: #cacb29;
+background-color: #cacb29;
+}
+
+
+.kare{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+  .pt-1{
+   margin-top: 14rem;
+  }
+
+  .menu{ 
+    font-size: 0.875rem;
+    color: #212529;
+    size: 14px;
+    line-height: 14px;
+  }
+
+  .tsk-1{
+
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  .h1{
+
+margin-bottom: 30rem;
+z-index: 600;
+
+  }
+
+.bi-dot-1{
+    z-index: 10;
+    position: absolute;
+    color: purple;
+    top: 30px;
+    right: 40px;
+    font-weight: 70px;
+  font-size: 70px;
+   
+}
+.ple{
+    z-index: 30;
+    position: absolute;
+ color:purple;
+    bottom: 75px;
+    left: 40px;
+    border-radius: 100%;
+  font-weight: 40px;
+  font-size: 30px;
+  transform: rotate(60deg);
+        -webkit-transform: rotate(60deg)
+}
+
+
+.img-2{
+  width: 280px;
+
+
+  z-index: 100;
+ 
+ 
+
+}
+
+.tel-2{
+ justify-content: end;
+ position: absolute;
+
+
+
+}
+
+
+.btn-alt{
+  width: 100%;
+}
+.daire2{
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    border-radius: 300px;
+    width:350px;
+    height:350px;
+    z-index: 20;    
+position: absolute;
+margin-left:5rem;
+margin-right: 15rem;
+
+   
+  }
+.iki-2{
+  color: purple;
+  position: absolute;
+  font-size: 30px;
+  bottom: 370px;
+  left: 450px;
+  z-index: 12;
+  transform: rotate(10deg);
+        -webkit-transform: rotate(10deg)
+  
+}
+.yuv{
+position: absolute;
+font-size: 100px;
+top: 340px;
+right: 300px;
+z-index: 1200;
+color: purple;
+}
+.tüm-icon{
+  font-size: 45px;
+  background: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+
+}
+.tüm-icon-baslik{
+  font-family: 'Kanit', sans-serif;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 500;
+  color: #212529;
+}
+
+.altyazi{
+  width: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(33, 37, 41, 0.75);
+}
+.ayri{
+text-transform: lowercase;
+}
+.kt-2{
+  margin-top: 6rem;
+  margin-left: 6rem;
+ padding-bottom: 3rem;
+}
+
+
+.by-1{
+background-image: url(2.jpeg);
+background-size: cover;
+background-position: center;
+z-index: 50;
+position: relative;
+height: 630px;
+}
+
+.by-text{
+z-index: 100;
+color:#ffffff;
+padding-top: 220px;
+padding-left: 100px;
+font-weight: 300;
+font-size: calc(1.625rem + 4.5vw);
+line-height: 1;
+}
+.by-1::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+background-color: rgba(0, 0, 0, 0.3);
+}
+.tsk-5{
+  background-image: linear-gradient(45deg, #2937f0, #9f1ae2);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.butn-2{
+  z-index: 5000000000;
+  color: #ffffff;
+}
+.sn-2{
+  padding-bottom: 5rem;
+}
+
+.nk-1{
+  margin-bottom: 3rem;
+}
+.by-1 .container{
+  z-index: 15;
+  position: relative;
+}
+
+@media screen and (max-width: 992px) {
+  .hea{
+    padding-top: 58px;
+  }
+  .daire2{
+   margin-left: 15rem;
+   border-radius: 300px;
+   width:400px;
+   height:400px;
+  }
+  .iki-2{
+    bottom: 370px;
+    left: 400px;
+  }
+  .yuv{
+    top: 340px;
+right: 370px;
+  }
+  .img-2{
+    width: 330px;
+  }
+  .img-five{
+    width: 330px;
+  }
+  .kare{
+    margin-left: 0;
+    margin-right: 0;
+}
+}
+@media screen and (max-width: 576px){
+
+.basit{
+display: none;
+}
+.bi-dot-1{
+  display: none;
+}
+.ple{
+  display: none;
+}
+
+}
